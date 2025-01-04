@@ -1,6 +1,5 @@
 /* 注意: ES moduleでは動かないので、フォルダから取り出して実行して下さい。 "type": "module"の影響の及ばないところで実行できます。 */
 const fcl = require("@onflow/fcl");
-const t = require("@onflow/types");
 const { SHA3 } = require("sha3");
 var EC = require("elliptic").ec;
 var ec = new EC("p256");
